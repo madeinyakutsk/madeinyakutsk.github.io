@@ -57,7 +57,7 @@ img {
 }
 
 .credits ul {
-  margin: 0;
+  margin: 0 0 4em;
   padding: 0;
 }
 
@@ -68,6 +68,13 @@ img {
 
 .credits li em {
   text-transform: lowercase;
+}
+
+
+.cover-copyright {
+  float: right;
+  font-style: italic;
+  font-size: 12px;
 }
 
 
