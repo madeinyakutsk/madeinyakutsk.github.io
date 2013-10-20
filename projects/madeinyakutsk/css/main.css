@@ -62,8 +62,8 @@ img {
 }
 
 .credits li {
-  width: 30%;
-  display: inline-block;
+  display: block;
+  margin-bottom: 1em;
 }
 
 .credits li em {
