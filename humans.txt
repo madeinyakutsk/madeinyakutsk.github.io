@@ -1,0 +1,9 @@
+# TEAM
+
+     designer  Bair Galsanov
+    developer  Kolesnikov Danil
+      manager  Michil Struchkov
+
+# THANKS
+
+    H5BP, GitHub
