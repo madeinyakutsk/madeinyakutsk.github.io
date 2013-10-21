@@ -25,6 +25,7 @@ img {
   max-width: 100%;
 }
 
+
 .page-header {
   font-size: 16px;
   margin: 0 0 1em;
@@ -53,18 +54,6 @@ img {
 }
 
 
-.container {
-  overflow: hidden;
-  width: 1600px;
-  margin: auto;
-}
-
-.item {
-  float: left;
-  width: 300px;
-  margin: 0 10px 40px;
-}
-
 .item-title {
   font-weight: bold;
   border-bottom: none;
@@ -73,6 +62,7 @@ img {
 .item-preview {
   border-bottom: none;
 }
+
 
 .item-placeholder {
   opacity: 0.3;
@@ -88,13 +78,40 @@ img {
   font-size: inherit;
 }
 
+/**
+ * Grid.
+ */
 
-@media (min-width: 1281px) and (max-width: 1600px) {
+.container {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.item {
+  margin: 0 0 40px;
+}
+
+@media (min-width: 641px) {
   .container {
-    width: 1280px;
+    overflow: hidden;
+    padding: 0;
   }
 
-  .item:nth-child(4n + 1) {
+  .item {
+    float: left;
+    width: 300px;
+    margin: 0 10px 40px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .container {
+    width: 640px;
+  }
+
+  .item:nth-child(2n + 1) {
     clear: both;
   }
 }
@@ -109,29 +126,12 @@ img {
   }
 }
 
-@media (max-width: 960px) {
+@media (min-width: 1281px) {
   .container {
-    width: 640px;
+    width: 1280px;
   }
 
-  .item:nth-child(2n + 1) {
+  .item:nth-child(4n + 1) {
     clear: both;
-  }
-}
-
-@media (max-width: 640px) {
-  .container {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    -mox-box-sizing: border-box;
-         box-sizing: border-box;
-  }
-
-  .item {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
   }
 }

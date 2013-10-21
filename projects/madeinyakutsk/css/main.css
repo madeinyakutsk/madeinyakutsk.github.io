@@ -7,7 +7,7 @@ body {
   margin: 40px 0 100px;
   background: url('../img/cover.jpg') top center no-repeat;
   color: #222;
-  font: normal 18px/1.5 'PT Serif';
+  font: normal 16px/1.5 'PT Serif';
   text-rendering: optimizeLegibility;
 }
 
@@ -28,9 +28,9 @@ img {
 
 
 .page-wrapper {
-  overflow: hidden;
-  width: 960px;
-  margin: auto;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  padding: 0 40px;
 }
 
 .page-logo {
@@ -38,15 +38,12 @@ img {
   font: 700 16px/1 'PT Sans';
 }
 
-.page-container {
-  width: 600px;
-  margin: auto;
-}
-
 .page-title {
-  margin: 260px 0 340px;
+  width: 60%;
+  margin: 160px auto 360px;
   color: white;
-  font: 300 70px/1 'Open Sans';
+  font: 300 60px/1 'Open Sans';
+  text-align: center;
 }
 
 
@@ -77,17 +74,27 @@ img {
 }
 
 
-@media (max-width: 960px) {
-  .page-wrapper,
-  .page-container {
-    width: 100%;
+@media (min-width: 620px) {
+  .page-title {
+    width: auto;
+    margin: 220px 0 360px;
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 960px) {
+  body {
+    font-size: 18px;
   }
 
   .page-wrapper {
-    -moz-box-sizing: border-box;
-         box-sizing: border-box;
-    padding: 0 40px;
+    width: 960px;
+    margin: auto;
+    padding: 0;
   }
 
-  .page-title {}
+  .page-container {
+    width: 600px;
+    margin: auto;
+  }
 }
