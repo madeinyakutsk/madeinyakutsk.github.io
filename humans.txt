@@ -3,6 +3,7 @@
      designer  Bair Galsanov
     developer  Kolesnikov Danil
       manager  Michil Struchkov
+   copywriter  Sergey Khristoforov
 
 # THANKS
 
