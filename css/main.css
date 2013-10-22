@@ -1,24 +1,19 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 40px 0;
+  color: #222;
   font: normal 14px/1.5 'PT Sans';
   text-rendering: optimizeLegibility;
-  color: #222;
 }
 
 a {
+  border-bottom: thin solid rgba(0,0,0,.3);
   color: #000;
   text-decoration: none;
-  border-bottom: thin solid rgba(0,0,0,.3);
 }
 
 a:hover {
-  text-decoration: none;
   color: #666;
+  text-decoration: none;
 }
 
 img {
@@ -27,8 +22,8 @@ img {
 
 
 .page-header {
-  font-size: 16px;
   margin: 0 0 1em;
+  font-size: 16px;
 }
 
 .page-logo {
@@ -43,9 +38,9 @@ img {
 
 .services-links ul {
   display: inline-block;
-  list-style: none;
-  padding: 0;
   margin: 1em 0;
+  padding: 0;
+  list-style: none;
 }
 
 .services-links li {
@@ -55,8 +50,8 @@ img {
 
 
 .item-title {
-  font-weight: bold;
   border-bottom: none;
+  font-weight: bold;
 }
 
 .item-preview {
