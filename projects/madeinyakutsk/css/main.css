@@ -7,14 +7,14 @@ body {
 }
 
 a {
-  border-bottom: thin solid rgba(0,0,0,.3);
+  border-bottom: thin solid #ddd;
   color: #000;
   text-decoration: none;
 }
 
 a:hover {
+  border-bottom-color: #eee;
   color: #666;
-  text-decoration: none;
 }
 
 img {
