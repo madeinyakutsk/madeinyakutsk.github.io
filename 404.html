@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic">
-    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
     <style>
       html {
@@ -23,24 +23,18 @@
       }
 
       a {
-        border-bottom: thin solid #ddd;
+        border-bottom: thin solid rgba(0,0,0,.2);
         color: #000;
         text-decoration: none;
       }
 
       a:hover {
-        border-bottom-color: #eee;
-        color: #666;
+        opacity: .5
       }
 
 
       .page-wrapper {
-        padding: 40px 0;
-      }
-
-      .page-container {
-        width: 940px;
-        margin: auto;
+        padding: 40px;
       }
 
       .page-logo {
@@ -49,13 +43,23 @@
         font-size: 16px;
       }
 
-      .page-title {
-        width: 300px;
-        margin: 40px auto;
-        font-weight: 400;
-        font-size: 200px;
+      .page-title,
+      .page-info {
+        margin: 0;
         text-align: center;
-        position: relative;
+      }
+
+      .page-title {
+        font-weight: 400;
+        font-size: 160px;
+        line-height: 1.5;
+      }
+
+      @media (min-width: 940px) {
+        .page-container {
+          width: 960px;
+          margin: auto;
+        }
       }
     </style>
   </head>
@@ -69,10 +73,13 @@
         <h1 class="page-title">
           404
         </h1>
+        <div class="page-info">
+          Если это важно, <a href="mailto:support@madeinyakutsk.com">сообщите нам</a>
+        </div>
       </div>
     </div>
 
-    <script src="/js/html2canvas.min.js"></script>
-    <script src="/js/glitch.js"></script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/glitch.js"></script>
   </body>
 </html>
