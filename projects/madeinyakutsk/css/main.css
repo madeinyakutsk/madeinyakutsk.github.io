@@ -77,13 +77,13 @@ img {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 940px) {
   body {
     font-size: 18px;
   }
 
   .page-wrapper {
-    width: 960px;
+    width: 940px;
     margin: auto;
     padding: 0;
   }

@@ -11,7 +11,7 @@
 
 
 body {
-  margin: 40px 0;
+  margin: 40px 0 100px;
   color: #222;
   font: normal 14px/1.5 'PT Sans';
   text-rendering: optimizeLegibility;
@@ -34,13 +34,11 @@ img {
 
 
 .page-header {
-  margin: 0 0 1em;
-  font-size: 16px;
+  font: 700 16px/1 'PT Sans';
 }
 
 .page-logo {
   border-bottom: none;
-  font-weight: bold;
 }
 
 
@@ -48,11 +46,11 @@ img {
  * Grid.
  */
 
-.container {
+.page-container {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
   margin: auto;
-  padding: 0 10px;
+  padding: 0 40px;
 }
 
 .item {
@@ -84,7 +82,7 @@ img {
 
 
 @media (min-width: 641px) {
-  .container {
+  .page-container {
     overflow: hidden;
     padding: 0;
   }
@@ -97,7 +95,7 @@ img {
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-  .container {
+  .page-container {
     width: 640px;
   }
 
@@ -107,7 +105,7 @@ img {
 }
 
 @media (min-width: 961px) and (max-width: 1280px) {
-  .container {
+  .page-container {
     width: 960px;
   }
 
@@ -117,7 +115,7 @@ img {
 }
 
 @media (min-width: 1281px) {
-  .container {
+  .page-container {
     width: 1280px;
   }
 
