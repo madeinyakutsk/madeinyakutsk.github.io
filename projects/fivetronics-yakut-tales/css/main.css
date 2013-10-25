@@ -34,12 +34,25 @@ img {
 }
 
 .page-title {
-  font: normal 70px/1 'PT Serif';
+  font: normal 40px/1 'PT Serif';
 }
 
 .page-title .btn-appstore {
-  margin-left: 20px;
+  display: block;
+  margin: 20px 0 0;
 }
+
+@media (min-width: 640px) {
+  .page-title {
+    font-size: 70px;
+  }
+
+  .page-title .btn-appstore {
+    display: inline-block;
+    margin: 0 0 0 20px;
+  }
+}
+
 
 .page-container {
   padding: 0 40px;
