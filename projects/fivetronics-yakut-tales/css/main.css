@@ -215,6 +215,14 @@ img {
   text-align: center;
 }
 
+@media (min-width: 1200px) {
+  .page-footer-decorations {
+    padding-top: 600px;
+    margin-left: -600px;
+    left: 50%;
+  }
+}
+
 .page-footer-fg {
   position: absolute;
   bottom: 0;
