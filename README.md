@@ -1,1 +1,1 @@
-# madeinyakutia.com
+# madeinyakutsk.com
