@@ -228,10 +228,10 @@ img {
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .page-footer-decorations {
-    padding-top: 600px;
-    margin-left: -600px;
+    padding-top: 400px;
+    margin-left: -400px;
     left: 50%;
   }
 }
@@ -253,10 +253,10 @@ img {
 
 @-webkit-keyframes sunshine {
   0%   { -webkit-transform: rotate(0deg)   }
-  100% { -webkit-transform: rotate(360deg) }
+  100% { -webkit-transform: rotate(-360deg) }
 }
 
 @keyframes sunshine {
   0%   { transform: rotate(0deg)   }
-  100% { transform: rotate(360deg) }
+  100% { transform: rotate(-360deg) }
 }
